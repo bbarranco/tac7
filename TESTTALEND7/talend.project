@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_OsxaEQqBEeie0o1hm1B-MA" label="testTalend7" description="" language="java" technicalLabel="TESTTALEND7" creationDate="2018-02-05T14:26:26.000+0000" author="_OsxaEgqBEeie0o1hm1B-MA" productVersion="Talend Big Data-7.0.1.20180131_1240-EP" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/bbarranco/tac7.git&quot;,&quot;login&quot;:&quot;bbarranco@talend.com&quot;,&quot;passwd&quot;:&quot;AYUnf8tjg5WMKZ2Ta1M75g==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DI"/>
+  <TalendProperties:User xmi:id="_OsxaEgqBEeie0o1hm1B-MA" login="bbarranco@talend.com" firstName="ben" lastName="ben" type="DI" additionnalData="{}"/>
+</xmi:XMI>
