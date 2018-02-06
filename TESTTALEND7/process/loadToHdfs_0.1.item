@@ -253,7 +253,7 @@
     <elementParameter field="TEXT" name="MAPRTICKET_DURATION" show="false" value=""/>
     <elementParameter field="BOTH_HADOOP" name="FILENAME" value="&quot;/user/admin/CustRef&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TYPEFILE" value="TEXT"/>
-    <elementParameter field="CLOSED_LIST" name="FILE_ACTION" value="CREATE"/>
+    <elementParameter field="CLOSED_LIST" name="FILE_ACTION" value="OVERWRITE"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
     <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
     <elementParameter field="CHECK" name="CUSTOM_ENCODING" value="false"/>
@@ -265,7 +265,7 @@
     <elementParameter field="CHECK" name="COMPRESS" value="false"/>
     <elementParameter field="CLOSED_LIST" name="COMPRESSION" show="false" value="GZIP"/>
     <elementParameter field="LABEL" name="COMPRESS_NOTE" show="false" value="NOTE : Only support Linux client and hadoop native code is&#10;&#9;&#9;&#9;&#9;necessary, also need to add the native code path to&#10;&#9;&#9;&#9;&#9;$java.library.path&#10;&#9;&#9;&#9;"/>
-    <elementParameter field="CHECK" name="INCLUDEHEADER" value="false"/>
+    <elementParameter field="CHECK" name="INCLUDEHEADER" value="true"/>
     <elementParameter field="TABLE" name="HADOOP_ADVANCED_PROPERTIES"/>
     <elementParameter field="CHECK" name="SET_MAPR_HOME_DIR" show="false" value="false"/>
     <elementParameter field="TEXT" name="MAPR_HOME_DIR" show="false" value="&quot;/opt/mapr&quot;"/>
@@ -334,15 +334,15 @@
 <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 </ds:Transforms>
 <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
-<ds:DigestValue>ioohZL1vUIaUVcmo+UB87O6U9ns=</ds:DigestValue>
+<ds:DigestValue>eNP8Ingl77afqPQvgUOunCCBObo=</ds:DigestValue>
 </ds:Reference>
 </ds:SignedInfo>
 <ds:SignatureValue>
-QbPiUjXnVbaeVIv0TeZbjXW1MVBT9JH2kwHyUfTLSp5KKNDNjIKidJh4bQBBYULmj20H9jM3MQZB&#13;
-HC2NmOvIs16V4QqvRuMCnDirUjwqTB8X7vz/myiRfzQTSzOwZ/V+IJs6vB8KaaCNGbEJeS5wtIe+&#13;
-q7wkqBVQseO2PCtlSLWO6dTBnBGri+ytht7FUWVhQggLsUS6OoC/aB/gAz6xcS8DPgyzlfMrtLU6&#13;
-JJxg1xkJBFt90N702R3Mo2/+1WR9ad75eiILMy8NwOeyJaMMzCAm8GDzntX+CjINOERAV4vFSr4G&#13;
-j4e9ZdExsqMosStjesyqefm+4GjhqqiNwBq+iA==
+zweFHPDXWUCEACGaxwCtyYjjLwwIX1IcT8GaBNPjzmX5ChJOXAB2iO5Ez17D38q+ZnuPRmKnyC1/&#13;
+63U8KeWKJ8oh/qn4VlbFWvpX+LoQfioXRROGSel2cmEfaIGvc5uYkuzxRDb0yOOmSKwGR2i+y4yL&#13;
+x/R016IxhuG+W/7qJIw+AiVN09auk1DJ+6TiqV8/idd+o7ZQtRx/GdeZl5jSgzvnJW4mSMQO87tP&#13;
+dWyFiQGN82XD0AdQlv4rOujtOZxHuz8vZ/K9NnaRNlExlvKx+LXasI5bDU0+iaGtDb78Oojdizeq&#13;
+zjBRLFW8eiS4HkpUZAjt9EkXdDQFzrITKchF0A==
 </ds:SignatureValue>
 <ds:KeyInfo>
 <ds:X509Data>
