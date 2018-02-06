@@ -121,7 +121,7 @@
     <elementParameter field="TEXT" name="PRINCIPAL" show="false" value="&quot;hdfs&quot;"/>
     <elementParameter field="FILE" name="KEYTAB_PATH" show="false" value="&quot;/tmp/hdfs.headless.keytab&quot;"/>
     <elementParameter field="CHECK" name="USE_MAPRTICKET" show="false" value="false"/>
-    <elementParameter field="TEXT" name="USERNAME" value="&quot;ben&quot;"/>
+    <elementParameter field="TEXT" name="USERNAME" value="&quot;admin&quot;"/>
     <elementParameter field="TEXT" name="GROUP" show="false" value="&quot;supergroup&quot;"/>
     <elementParameter field="PASSWORD" name="MAPRTICKET_PASSWORD" show="false" value="0RMsyjmybrE="/>
     <elementParameter field="TEXT" name="MAPRTICKET_CLUSTER" show="false" value="&quot;demo.mapr.com&quot;"/>
@@ -246,7 +246,7 @@
     <elementParameter field="TEXT" name="PRINCIPAL" show="false" value="&quot;hdfs&quot;"/>
     <elementParameter field="FILE" name="KEYTAB_PATH" show="false" value="&quot;/tmp/hdfs.headless.keytab&quot;"/>
     <elementParameter field="CHECK" name="USE_MAPRTICKET" show="false" value="false"/>
-    <elementParameter field="TEXT" name="USERNAME" value="&quot;ben&quot;"/>
+    <elementParameter field="TEXT" name="USERNAME" value="&quot;admin&quot;"/>
     <elementParameter field="TEXT" name="GROUP" show="false" value="&quot;supergroup&quot;"/>
     <elementParameter field="PASSWORD" name="MAPRTICKET_PASSWORD" show="false" value="0RMsyjmybrE="/>
     <elementParameter field="TEXT" name="MAPRTICKET_CLUSTER" show="false" value="&quot;demo.mapr.com&quot;"/>
@@ -334,15 +334,15 @@
 <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 </ds:Transforms>
 <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
-<ds:DigestValue>a/nGpwz8wEb4YYqf3id+ORehfQI=</ds:DigestValue>
+<ds:DigestValue>ioohZL1vUIaUVcmo+UB87O6U9ns=</ds:DigestValue>
 </ds:Reference>
 </ds:SignedInfo>
 <ds:SignatureValue>
-PVUQ/4uFFvSskZrIL9JsguXqnp330oD4K4uBLge+dJH7UZOR0LML2gb+dewToiTGqHevXXtrjhnU&#13;
-uA3uZEjBwYELA9YzxUZz3hW8ny+fEB4Ga03fVO1wzs7r3GnhRTy1MWJBlLWFnXi7SOXj4jbEvbZK&#13;
-Lb/CC7bD2AnFL3+mgakHwiOCD6ngBdc4m5oe2Zbl6/AYYCpOHAbyjTgK66TSZkbgN3vqMK2Wzim3&#13;
-1xgTof7RwCvYrnwdH1tR74M/8gk8dNRTDUvVQIFWwIJ0bT/nn297jxqV4afNnF6XRlRobu7S/reb&#13;
-unj5RUPQOmlR1ZCE4iVyL/EOAof+BbB6axv+cw==
+QbPiUjXnVbaeVIv0TeZbjXW1MVBT9JH2kwHyUfTLSp5KKNDNjIKidJh4bQBBYULmj20H9jM3MQZB&#13;
+HC2NmOvIs16V4QqvRuMCnDirUjwqTB8X7vz/myiRfzQTSzOwZ/V+IJs6vB8KaaCNGbEJeS5wtIe+&#13;
+q7wkqBVQseO2PCtlSLWO6dTBnBGri+ytht7FUWVhQggLsUS6OoC/aB/gAz6xcS8DPgyzlfMrtLU6&#13;
+JJxg1xkJBFt90N702R3Mo2/+1WR9ad75eiILMy8NwOeyJaMMzCAm8GDzntX+CjINOERAV4vFSr4G&#13;
+j4e9ZdExsqMosStjesyqefm+4GjhqqiNwBq+iA==
 </ds:SignatureValue>
 <ds:KeyInfo>
 <ds:X509Data>
