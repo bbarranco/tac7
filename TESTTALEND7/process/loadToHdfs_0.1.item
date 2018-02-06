@@ -233,24 +233,25 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="DESTINATION" show="false" value=""/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="EMR_5_8_0"/>
+    <elementParameter field="CLOSED_LIST" name="DISTRIBUTION" value="CLOUDERA"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="Cloudera_CDH5_13_0_dynamic_20180125112951933_0100"/>
     <elementParameter field="HADOOP_DISTRIBUTION" name="HDFS" value=""/>
     <elementParameter field="HADOOP_JARS_DIALOG" name="HADOOP_CUSTOM_JARS" show="false" value=""/>
     <elementParameter field="CLOSED_LIST" name="AUTHENTICATION_MODE" show="false" value="USERNAME"/>
-    <elementParameter field="TEXT" name="FS_DEFAULT_NAME" value="&quot;maprfs:///&quot;"/>
+    <elementParameter field="TEXT" name="FS_DEFAULT_NAME" value="&quot;hdfs://ip-172-31-42-0.eu-west-3.compute.internal:8020&quot;"/>
     <elementParameter field="CHECK" name="USE_DATANODE_HOSTNAME" value="true"/>
-    <elementParameter field="CHECK" name="USE_KRB" show="false" value="false"/>
-    <elementParameter field="TEXT" name="NAMENODE_PRINCIPAL" show="false" value="&quot;nn/_HOST@EXAMPLE.COM&quot;"/>
+    <elementParameter field="CHECK" name="USE_KRB" value="false"/>
+    <elementParameter field="TEXT" name="NAMENODE_PRINCIPAL" show="false" value="&quot;hdfs/_HOST@EXAMPLE.COM&quot;"/>
     <elementParameter field="CHECK" name="USE_KEYTAB" show="false" value="false"/>
     <elementParameter field="TEXT" name="PRINCIPAL" show="false" value="&quot;hdfs&quot;"/>
     <elementParameter field="FILE" name="KEYTAB_PATH" show="false" value="&quot;/tmp/hdfs.headless.keytab&quot;"/>
     <elementParameter field="CHECK" name="USE_MAPRTICKET" show="false" value="false"/>
-    <elementParameter field="TEXT" name="USERNAME" value="&quot;anonymous&quot;"/>
+    <elementParameter field="TEXT" name="USERNAME" value="&quot;ben&quot;"/>
     <elementParameter field="TEXT" name="GROUP" show="false" value="&quot;supergroup&quot;"/>
     <elementParameter field="PASSWORD" name="MAPRTICKET_PASSWORD" show="false" value="0RMsyjmybrE="/>
     <elementParameter field="TEXT" name="MAPRTICKET_CLUSTER" show="false" value="&quot;demo.mapr.com&quot;"/>
-    <elementParameter field="TEXT" name="MAPRTICKET_DURATION" show="false" value="86400L"/>
-    <elementParameter field="BOTH_HADOOP" name="FILENAME" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="MAPRTICKET_DURATION" show="false" value=""/>
+    <elementParameter field="BOTH_HADOOP" name="FILENAME" value="&quot;CustRef&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TYPEFILE" value="TEXT"/>
     <elementParameter field="CLOSED_LIST" name="FILE_ACTION" value="CREATE"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
@@ -333,15 +334,15 @@
 <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 </ds:Transforms>
 <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
-<ds:DigestValue>XgywAqtcYRT+2V5Z1XuTIu2lr5w=</ds:DigestValue>
+<ds:DigestValue>6MrwT+nhdKLPzDI3tJLhI7oQNlQ=</ds:DigestValue>
 </ds:Reference>
 </ds:SignedInfo>
 <ds:SignatureValue>
-b7AV/1jBIWYkv/Mxqwn8nHik4vQIOljVebv6jgY3jIwBXx5PAuB0Nfcm6tLsNyKtjNnIYVfeEmi2&#13;
-CWzJEFdpdo9ArJnYXMOjpCTHzJ85W50AEYNV4w86z2kubyIJc6f9pw5B4po765cfSr+bQ9qfsB9m&#13;
-sSdya4fvzCe2Wg6JojguApgtOMugXcnYUl784db8J4Ob4+8A99H9Mm07Q9cGAzt7h5tBrSCcIvLO&#13;
-tdk7PKVKfom3wEyG+dwfM2rM9La4jGzLuXunlRxAvVWasQp/ohugPe/AJLXpHsi8LRslebTItEKo&#13;
-97GJ+5diO4W7QdGCgu/HaV8dCxEU7QeiIUv9Eg==
+j94ULwtUTI8nWHQjoQ+dF7YKeZwsLIcgg37FyLBlw1Gxttp+C+UMh1SMe4Wce0w5st1Pjp4T+Dt5&#13;
+5OOQDy9wFnq1hc0dPPSEiqOucMWR97G4nTNuqm40+mvpnIuhSFpDI2Elc1f6Ru7pm93CUYdfDnnx&#13;
+lk7cQVpfMV8gbGxNm2JZ/MM8egn8SRLfouVr/8UTxZvhH7tUPYm2DgTMPqwxXifOdbCyRe+B8lNg&#13;
+Nw0/L8NHPkZa0hhlDRQznc5COp4Jk3nzzKO2+EyCYxTu3eq8/H0onY66dTCcgL6AHR7Jsvp/OOBP&#13;
+wuNyMHWtXUWKKETEpTlG7hh4Gd9nLXAW609HGg==
 </ds:SignatureValue>
 <ds:KeyInfo>
 <ds:X509Data>
