@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><TalendHDFS:HDFSConnection xmlns:TalendHDFS="http://www.talend.org/hdfs" xmlns:xmi="http://www.omg.org/XMI" fieldSeparator="&quot;;&quot;" firstLineCaption="true" headerValue="1" label="Hdfs" name="Hdfs" relativeHadoopClusterId="_f40FgAsUEeie0o1hm1B-MA" rowSeparator="&quot;\n&quot;" useHeader="true" userName="ben" xmi:id="_zcUE4AsVEeie0o1hm1B-MA" xmi:version="2.0"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><TalendHDFS:HDFSConnection xmlns:TalendHDFS="http://www.talend.org/hdfs" xmlns:xmi="http://www.omg.org/XMI" fieldSeparator="&quot;;&quot;" firstLineCaption="true" headerValue="1" label="Hdfs" name="Hdfs" relativeHadoopClusterId="_f40FgAsUEeie0o1hm1B-MA" rowSeparator="&quot;\n&quot;" useHeader="true" userName="admin" xmi:id="_zcUE4AsVEeie0o1hm1B-MA" xmi:version="2.0"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
 <ds:SignedInfo>
 <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
@@ -8,15 +8,15 @@
 <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 </ds:Transforms>
 <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
-<ds:DigestValue>oJmZq3QaKwDl0qG24/a7vLYHth0=</ds:DigestValue>
+<ds:DigestValue>afziYNySbGu8iNTFSzmoijD0XZY=</ds:DigestValue>
 </ds:Reference>
 </ds:SignedInfo>
 <ds:SignatureValue>
-xIoE0tPbdeUUoFRAC+AqVDNfbO8sx7xbLqjEv7ckm+J/sn2kPXb8S9fnu42JW7cT+n9mgS8gfFxT&#13;
-5iSBDA/CX59hOAYis4AdUBJx1Wzcb70f/v8dOoUUPop6tIUtzAfsF2XsQQp/Vbv/hYVgUuspYC7+&#13;
-E2WEo/F8cvx4/Ib+WhsYM1WjCbEFLsN9cYhgqr542f8/9GkKVaxHZFPxM2rLyzn8MZ79ee4vDDpf&#13;
-IlVx68Q7fgk/1iQZnnNSxmgkpkey/46bgpf6jBha02w7/r+D/5UQDBBIq6uKz/7AU2PGXMBWaASl&#13;
-9nwfvyKo6YgCQLzSTcdhSwmQBRFLmtOcd+SFlg==
+XPNXF73DLPIqqf8xtfPdekJhCHzXERY7v9EWNL8BZbR6eez1rJKIDSt/OIYDj9WmTik5zbhRc5QS&#13;
+4h37qj3HFXyjyEmWS+B1H+gBQ3cSSZOb0bTs8HJbd/8ynLhGIDtMby8RvCI3bBepatqAP/6IGWNR&#13;
+/YfaJs/mTGGL3S0EQvoq4lHf+tWUgLtrO9AtSlHTfCSzveJmkynYIgTtZAfxoXSH/0COb9rnMe43&#13;
+8R2LNczflxRZxNTlvAD95UsBMcjWbUXYMFPpbDEcFGlS9UiOUp4Qjx2IfHmt7yixrsepnybdALcR&#13;
+d9RzCKog/Vim+ejHS4ggPeFkIab6E3a9i45BFQ==
 </ds:SignatureValue>
 <ds:KeyInfo>
 <ds:X509Data>
